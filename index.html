@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name=""viewport" content="with=device-width, initial-scale=1.0">
+        <title>assignment on Scholarship and financial aid</title>
+        <link rel="stylesheet" href="style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidMenu()"></i>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Scholarships</a></li>
+                        <li><a href="">Financial Aids</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>Brenjay Scholarship And Financial aid</h1>
+                <p>Brenjay Scholarships and financial aids is a mandate set to provide support for <br> enthusiastic,hard working,<br> dedicated individuals who are willing to <br> further their education but are not financially bouyant</p>
+                <a href="" class="hero-btn">Visit Us To Know More</a>
+            </div>
+
+    </section>
+
+    <!--------Scholarships-------->
+    <section class="Scholarships">
+        <h1>Scholarships we offer</h1>
+        <p>The Brenjay Scholarships is geared towards helping <br> the dropout of children and alliviating the financial status of <br> those who are still interested in completing their education</p>
+
+        <div class="course-col">
+            <h3>Courses offered</h3>
+            <p>There are different courses available for various level of learning. <br> There is no restriction to age and also you can learn at your own pace.<br>we have diploma in: <br> Web Development,<br> Python Programming,<br> Graphics Designing,<br>Search Engine Optimization,<br>SQL.</div>
+
+
+        <div class="row">
+            <div class="Financial Aids">
+                <h3>financial Aids</h3>
+                <p>The financial assistance of this scholarship comes with terms and conditions attached to it.<br> Meet the required conditions to qualify for the financial aids</p>
+            </div>
+        </div>
+    </section>
+
+    <!-------- campus --------->
+
+    <section class="campus">
+        <h1>Our Learning Campus</h1>
+        <p>Our learning campuses are condusive for learning.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/harmony.jpg">
+                <div class="layer">
+                    <h3>Ibadan</h3>
+            </div>
+        </div>
+
+    </section>
+
+<!--------JavaScript for Toggle Menu-------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+    </script>
+
+</body>
+</html>
